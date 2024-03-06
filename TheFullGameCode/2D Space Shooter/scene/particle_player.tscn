@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://kmxog8yenmw2"]
+
+[ext_resource type="Texture2D" uid="uid://c8b7bhb2hd6tw" path="res://game-package/Player_Ship_Sprite.png" id="1_4nfff"]
+[ext_resource type="Script" path="res://Script/particle_player.gd" id="2_3n54x"]
+
+[node name="particle_player" type="Sprite2D"]
+texture = ExtResource("1_4nfff")
+hframes = 2
+vframes = 4
+frame = 4
+script = ExtResource("2_3n54x")
